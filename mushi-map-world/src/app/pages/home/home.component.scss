@@ -1,0 +1,101 @@
+hr{
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.frame{
+    width: 375px;
+    height: 812px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 380px;
+}/*iphone部分*/
+
+.frame1{
+    width: 375;
+    height: 36;
+    background-color:#FFFFFF;
+
+}/*iphoneの上の部分*/
+
+.frame2{
+    width: 120px;
+    height: 200px;
+    margin-top: 530px;
+    margin-left: 250px;
+    background-color: #FFFFFF;
+}/* ボタン３．４　部分の領域*/
+
+
+.serch{
+    height: 27px;
+    width: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}/*検索マーク（しゃしん）のレイアウト*/
+
+.menu{
+    height: 27px;
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+} /*メニューマーク（しゃしん）のレイアウト*/
+
+
+
+
+.button1{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0pt;
+    margin-top: 3px;
+}/*検索ボタン*/
+
+.button2{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: right;
+    margin-top: 3px;
+}/*メニューボタン*/
+
+.button0{
+    width: 70px;
+    height: 70px;
+    background-color: #c7c3c3;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-top: 25px;
+
+}/*buttpn3.4.(●ボタンの)レイアウト*/
+
+.button3{
+    width: 35px;
+    height: 50px;
+}/*現在地ボタン*/
+
+.button4{
+    height: 45px;
+    width: 45px;
+}/*投稿ボタン*/
+
