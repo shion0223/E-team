@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mushi-map-world": {
+    "Mushi-Map-World": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mushi-map-world",
+            "outputPath": "dist/Mushi-Map-World",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mushi-map-world:build:production"
+              "browserTarget": "Mushi-Map-World:build:production"
             },
             "development": {
-              "browserTarget": "mushi-map-world:build:development"
+              "browserTarget": "Mushi-Map-World:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mushi-map-world:build"
+            "browserTarget": "Mushi-Map-World:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "mushi-map-world"
+  "defaultProject": "Mushi-Map-World"
 }
