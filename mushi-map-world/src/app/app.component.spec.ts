@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'mushi-map-world'`, () => {
+  it(`should have as title 'Mushi-Map-World'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mushi-map-world');
+    expect(app.title).toEqual('Mushi-Map-World');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('mushi-map-world app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Mushi-Map-World app is running!');
   });
 });
