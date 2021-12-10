@@ -5,58 +5,51 @@
     border-bottom: 5px solid black;
     padding-bottom:0;
     margin: 0;
-
 }
 
 .information{
     background-color: #ffffff;
     text-align: center;
     width: 300px;
-    height: 360px;
+    height: 250px;
     border: solid 5px #808080;
-    border-radius: 40px;
     padding: 0;
-    margin-top: 25px;
+    margin: 0;
 }
 
 .background{
   text-align: center;
   background-color: #808080;
-  overflow-y: scroll;
-  height: 640px;
 }
 
 .abc{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-radius: 25;
 }
 
 .thread {
     position: relative;
     display: inline-block;
     margin: 1.5em 0 1.5em 15px;
-    margin-right: 10px;
     padding: 7px 10px;
-    min-width: 140px;
-    max-width: 110%;
+    min-width: 120px;
+    max-width: 100%;
     color: #555;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #ffffff;
     text-align: center;
-    border-radius: 12px;
-    word-break: break-all;
   }
   
   .thread:before {
     content: "";
     position: absolute;
     top: 50%;
-    left: -28px;
+    left: -30px;
     margin-top: -15px;
     border: 15px solid transparent;
     border-right: 15px solid #ffffff;
-    
   }
   
   .thread p {
@@ -69,31 +62,7 @@
   background-color: #ffffff;
   text-align: right;
   padding: 0;
-
-
-}
-.button0{
-  background-color: #ffffff;
-  border:none;
-
-}
- .button1{
-   width: auto;
-   height: 50px;
-   background-color: #ffffff;
-   margin-right: 10px;
-   border: none;
-}
- .hani{
-   width: 320px;
-   margin-left: 30px;
-   padding-right: 10px;
-}
-.getinfo{
-  width: 120px;
-  height: 90px;
-  margin-top: 0px;
-  margin-left: 0px;
+  margin: 0;
 }
 
 
