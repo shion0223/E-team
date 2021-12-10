@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DetailComponent } from './pages/detail/detail.component';
 import { SpotComponent } from './pages/spot/spot.component';
 import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { HomeComponent } from './pages/home/home.component';
     DetailComponent,
     SpotComponent,
     HomeComponent,
+    LoginComponent,
 
 
   ],
