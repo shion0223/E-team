@@ -14,14 +14,19 @@ import { SerchDialogComponent } from './components/serch-dialog/serch-dialog.com
 @NgModule({
   declarations: [
     AppComponent,
+
     DetailComponent,
     SpotComponent,
     HomeComponent,
     LoginComponent,
     RegisterComponent,
     CompleteComponent,
+
+
+
     HomeComponent,
     SerchDialogComponent
+
   ],
   imports: [
     BrowserModule,
@@ -31,3 +36,7 @@ import { SerchDialogComponent } from './components/serch-dialog/serch-dialog.com
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
+
