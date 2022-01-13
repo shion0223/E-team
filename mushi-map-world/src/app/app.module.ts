@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { GoogleMapsModule } from '@angular/google-maps';
+
 import { AppComponent } from './app.component';
 import { DetailComponent } from './pages/detail/detail.component';
 import { SpotComponent } from './pages/spot/spot.component';
@@ -10,6 +12,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { CompleteComponent } from './pages/complete/complete.component';
 import { SerchDialogComponent } from './components/serch-dialog/serch-dialog.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +34,7 @@ import { SerchDialogComponent } from './components/serch-dialog/serch-dialog.com
   imports: [
     BrowserModule,
     AppRoutingModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
