@@ -13,6 +13,6 @@ export class DetailComponent implements OnInit {
   ngOnInit(): void {
   }
   onClick(){
-    this.router.navigate(['home'])
+    this.router.navigate([''])
   }
 }
