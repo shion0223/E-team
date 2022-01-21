@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-// import { GoogleMapsModule } from '@angular/google-maps';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 import { AppComponent } from './app.component';
 import { DetailComponent } from './pages/detail/detail.component';
@@ -34,7 +34,7 @@ import { SerchDialogComponent } from './components/serch-dialog/serch-dialog.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    //GoogleMapsModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
